@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="added class NewUser and main to HW11">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork2/HW_2_Mishchenko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork3/ChineseDynasties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork4/Parallelepiped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork5/CounterStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork6/GuessTheNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork7/ShuttleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork8/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork9/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork9/BurgerMain.java" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="added previous HW">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork11/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork11/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork11/FitInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork11/NewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork11/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork7/ShuttleNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork7/ShuttleNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Daryna_Mishchenko/Learning/DM_Hillel_L1/src/HomeWork7/ShuttleNumbers.java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daryna_Mishchenko/Learning/DM_Hillel_L1/src/HomeWork7/ShuttleNumbers.java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +63,8 @@
       <workItem from="1668093572844" duration="5897000" />
       <workItem from="1668152975342" duration="2157000" />
       <workItem from="1668155161684" duration="1778000" />
+      <workItem from="1668157548972" duration="377000" />
+      <workItem from="1668245331447" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668099640043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added previous HW">
+      <created>1668157643149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668157643150</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +123,7 @@
     <MESSAGE value="my first commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="added class NewUser and main to HW11" />
-    <option name="LAST_COMMIT_MESSAGE" value="added class NewUser and main to HW11" />
+    <MESSAGE value="added previous HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="added previous HW" />
   </component>
 </project>
