@@ -1,41 +1,21 @@
 package HomeWork12;
 
-/*
-Используемые инструменты:
+public enum Drinks {
 
-1) enum (напитки)
-2) константы (цены)
-3) static (общая стоимость)
-4) switch (выбор напитка)
+    COFFEE(3.0),
+    TEA(3.5),
+    LEMONADE(3.0),
+    MOJITO(5.0),
+    WATER(2.5),
+    COLA(3.0),
 
-Задание:
+    UNDEFINED(0.0);
 
-#1 сделайте enum DrinksMachine, который умеет делать КОФЕ, ЧАЙ, ЛИМОНАД, МОХИТО, МИНЕРАЛКУ, КОКА_КОЛУ;
-#2 Сделайте класс Drinks, в котором константами задайте цену напитка;
-#3 Сделайте подсчет количества сделанных напитков и общей суммы которую должен заплатить клиент;
-#4 Сделайте метод для приготовления каждого напитка;
-#5 Сделайте switch-case оператор который будет делать напиток(вызывая соответствующий метод) в зависимости от выбора клиента;
-#6 Добавьте возможность выбора напитка для пользователя, и в зависимости от выбора делайте ему напиток;
-#7 Пользователь должен иметь возможность заказать несколько напитков
-#8 и в конце увидеть сколько денег он должен заплатить;
- */
-public class Drinks {
 
-    public final double COFFEE = 5.0;
-    public final double TEA = 3.0;
-    public final double LEMONADE = 3.5;
-    public final double MOJITO = 6.0;
-    public final double WATER = 2.0;
-    public final double COLA = 3.0;
+    public final double price;
 
-    private double bill;
-
-    public double billCount(){
-
-        return 0;
+    Drinks(double price) {
+        this.price = price;
     }
-
-
-
 
 }

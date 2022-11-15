@@ -1,36 +1,70 @@
 package HomeWork12;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-/*
-Используемые инструменты:
-
-1) enum (напитки)
-2) константы (цены)
-3) static (общая стоимость)
-4) switch (выбор напитка)
-
-Задание:
-
-#1 сделайте enum DrinksMachine, который умеет делать КОФЕ, ЧАЙ, ЛИМОНАД, МОХИТО, МИНЕРАЛКУ, КОКА_КОЛУ;
-#2 Сделайте класс Drinks, в котором константами задайте цену напитка;
-#3 Сделайте подсчет количества сделанных напитков и общей суммы которую должен заплатить клиент;
-#4 Сделайте метод для приготовления каждого напитка;
-#5 Сделайте switch-case оператор который будет делать напиток(вызывая соответствующий метод) в зависимости от выбора клиента;
-#6 Добавьте возможность выбора напитка для пользователя, и в зависимости от выбора делайте ему напиток;
-#7 Пользователь должен иметь возможность заказать несколько напитков
-#8 и в конце увидеть сколько денег он должен заплатить;
- */
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please place your order: ");
 
-        while (order != "finish"){
+        double bill = 0;
+        boolean exit = true;
+        while (exit) {
+            for (Drinks drink : Drinks.values()) {
+                if (drink.equals(Drinks.UNDEFINED)) continue;
+                System.out.println(drink);
+            }
             String order = scanner.next();
+            Drinks drink = getDrink(order);
+
+            CoffeeMachine orderedDrink = new CoffeeMachine(drink);
+            switch (drink) {
+
+                case COFFEE -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.COFFEE.price;
+                }
+                case TEA -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.TEA.price;
+                }
+                case LEMONADE -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.LEMONADE.price;
+                }
+                case MOJITO -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.MOJITO.price;
+                }
+                case WATER -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.WATER.price;
+                }
+                case COLA -> {
+                    System.out.println(orderedDrink.prepareDrink());
+                    bill = bill + Drinks.COLA.price;
+                }
+                default -> System.out.println("Please remake your order or finish!");
+            }
+            System.out.println("Are you ready to finish? ('yes'/'no')");
+            exit = scanner.next().equals("no");
+        }
+        System.out.println("Your amount to pay is: " + bill);
+
+    }
+
+    private static Drinks getDrink(String name) {
+        for (Drinks drink : Drinks.values()) {
+            if (drink.toString().equalsIgnoreCase(name)) {
+                return drink;
+            }
 
         }
+        return Drinks.UNDEFINED;
     }
 
 }
+
