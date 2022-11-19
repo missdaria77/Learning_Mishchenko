@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="Start HW12">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork12/CoffeeMachine.java" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 13 was added">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork13/FibonacciNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/ClassicMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/MusicGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/MusicStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/PopMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork14/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork15/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/Drinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork12/Drinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/DrinksMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork12/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,9 @@
       <workItem from="1668268636089" duration="3797000" />
       <workItem from="1668337631046" duration="6323000" />
       <workItem from="1668444505448" duration="4640000" />
-      <workItem from="1668524545871" duration="1341000" />
+      <workItem from="1668524545871" duration="1502000" />
+      <workItem from="1668609493729" duration="969000" />
+      <workItem from="1668879115570" duration="9001000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -118,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668339130273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW 12 was refactored">
+      <created>1668525964033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668525964034</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW 12 was refactored">
+      <created>1668526026918</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668526026918</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +163,8 @@
     <MESSAGE value="added previous HW" />
     <MESSAGE value="HW7V1 + HW11V1" />
     <MESSAGE value="Start HW12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start HW12" />
+    <MESSAGE value="HW 12 was refactored" />
+    <MESSAGE value="HW 13 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 13 was added" />
   </component>
 </project>
