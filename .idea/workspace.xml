@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 13 was added">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork13/FibonacciNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/ClassicMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/MusicGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/MusicStyles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/PopMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork14/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork15/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork13/FibonacciNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork13/FibonacciNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork14/ClassicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork14/ClassicMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork14/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork14/MusicStyles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork14/MusicStyles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork14/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork14/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork14/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork14/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork15/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1668444505448" duration="4640000" />
       <workItem from="1668524545871" duration="1502000" />
       <workItem from="1668609493729" duration="969000" />
-      <workItem from="1668879115570" duration="9001000" />
+      <workItem from="1668879115570" duration="11510000" />
+      <workItem from="1669026489596" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668526026918</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW 13 was added">
+      <created>1668888280726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668888280726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

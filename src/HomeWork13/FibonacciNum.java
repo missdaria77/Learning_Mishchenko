@@ -14,18 +14,18 @@ public class FibonacciNum {
         if (n < 0) {
             System.out.println("can't be calculated");
         } else
-            System.out.println(FibonacciCalc(n));
+            System.out.println(fibonacciCalc(n));
 
     }
 
-    public static int FibonacciCalc(int n) {
+    public static int fibonacciCalc(int n) {
         int result;
 
         switch (n) {
 
             case 0 -> result = 0;
             case 1 -> result = 1;
-            default -> result = FibonacciCalc(n - 1) + FibonacciCalc(n - 2);
+            default -> result = fibonacciCalc(n - 1) + fibonacciCalc(n - 2);
         }
         return result;
     }
