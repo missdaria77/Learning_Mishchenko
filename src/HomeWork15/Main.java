@@ -6,4 +6,21 @@ package HomeWork15;
 Создайте экземпляры каждого вида в мейн-классе
  */
 public class Main {
+
+    public static void main(String[] args) {
+
+        Iphones iPhone = new Iphones();
+        Androids Samsung = new Androids();
+
+        iPhone.call();
+        Samsung.sms();
+
+        System.out.println("--- --- ---");
+
+        iPhone.os();
+        Samsung.os();
+
+    }
+
+
 }
