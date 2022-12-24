@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 15 v0 was added">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork2_2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork2_2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork2_2/SameName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork2_2_1/SameName.java" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 2_2 v0 was added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork2_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork2_2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork2_2/SameName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work2/other/SameName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork2_2_1/SameName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work2/sub/SameName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,13 +46,31 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/Daryna_Mishchenko/Learning/Hillel",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="home.work2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="home.work2.other" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +94,8 @@
       <workItem from="1669318241324" duration="3002000" />
       <workItem from="1669322602484" duration="444000" />
       <workItem from="1670006855009" duration="615000" />
-      <workItem from="1671820006744" duration="1370000" />
+      <workItem from="1671820006744" duration="1400000" />
+      <workItem from="1671912691959" duration="3254000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -160,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669322287785</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW 2_2 v0 was added">
+      <created>1671821410123</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671821410123</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +217,7 @@
     <MESSAGE value="HW 13 was added" />
     <MESSAGE value="HW 14 was added" />
     <MESSAGE value="HW 15 v0 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 15 v0 was added" />
+    <MESSAGE value="HW 2_2 v0 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 2_2 v0 was added" />
   </component>
 </project>

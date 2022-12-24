@@ -1,4 +1,4 @@
-package HomeWork2_2_1;
+package home.work2.sub;
 
 public class SameName {
 }
