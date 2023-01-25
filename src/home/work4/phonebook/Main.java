@@ -18,13 +18,11 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Record record0 = new Record("aab", "12345678");
-        Record record1 = new Record("aaa", "1234567");
         PhoneBook phoneBook = new PhoneBook();
-        phoneBook.add(record1);
-        phoneBook.add(record0);
+        phoneBook.add("aaa", "12345");
+        phoneBook.add("bbb", "1234567");
 
-        phoneBook.toString();
+        System.out.println(phoneBook.find("aaa"));
 
     }
 

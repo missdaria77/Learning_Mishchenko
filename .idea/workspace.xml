@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 4 v1 was added" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 4 v1 was added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Record.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +69,7 @@
       <recent name="home.work2.other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.home.work4.Main">
+  <component name="RunManager" selected="Application.home.work4.phonebook.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.work3.Main" />
       <module name="Hillel" />
@@ -106,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.home.work4.Main" />
         <item itemvalue="Application.home.work4.phonebook.Main" />
+        <item itemvalue="Application.home.work4.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -143,7 +148,8 @@
       <workItem from="1673294961517" duration="3145000" />
       <workItem from="1673443381378" duration="980000" />
       <workItem from="1673809345280" duration="1159000" />
-      <workItem from="1674657241859" duration="16195000" />
+      <workItem from="1674657241859" duration="17078000" />
+      <workItem from="1674675577829" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -264,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674674369610</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW 4 v1 was added">
+      <created>1674674877194</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674674877195</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
