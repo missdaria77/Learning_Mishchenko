@@ -21,12 +21,6 @@ public class PhoneBook {
         return null;
     }
 
-/*
-8. * У класі Телефонний Довідник реалізувати метод findAll(). Метод здійснює пошук записів на ім'я. Якщо записи знайдені,
-тоді їх необхідно повернути, інакше повертається null.
-Така реалізація викликана тим, що під одним прізвищем може зберігатися кілька телефонів і при запиті по конкретному імені
-необхідно повертати всі записи, що є в наявності.
- */
 
     public ArrayList<Record> findAll(String name) {
         ArrayList<Record> resRecords = new ArrayList<>();
@@ -34,7 +28,7 @@ public class PhoneBook {
         for (Record i : records) {
             if (i.getName().equals(name)) {
                 resRecords.add(i);
-            } else return null;
+            }
         }
         if (resRecords.isEmpty()) {
             return null;
@@ -45,5 +39,10 @@ public class PhoneBook {
         return records;
     }
 
-
+    @Override
+    public String toString() {
+        return "PhoneBook{" +
+                "records=" + records +
+                '}';
+    }
 }

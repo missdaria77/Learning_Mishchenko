@@ -29,4 +29,11 @@ public class Record {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "Record{" +
+                "name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
 }
