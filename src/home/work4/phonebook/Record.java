@@ -4,6 +4,10 @@ public class Record {
     private String name;
     private String phone;
 
+    public Record(String name, String phone) {
+        this.name = name;
+        this.phone = phone;
+    }
 
     public String getName() {
         return name;
@@ -21,8 +25,4 @@ public class Record {
         this.phone = phone;
     }
 
-    public Record(String name, String phone) {
-        this.name = name;
-        this.phone = phone;
-    }
 }

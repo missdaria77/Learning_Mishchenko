@@ -1,9 +1,9 @@
 package home.work4.phonebook;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /*
-0. Створити новий пакет phonebook.
 1. Створити клас Телефонний довідник.
 2. Створити клас Запис.
 3. Клас Запис зберігає Ім'я та Телефон.
@@ -19,16 +19,18 @@ import java.util.ArrayList;
 необхідно повертати всі записи, що є в наявності.
  */
 public class PhoneBook {
+
     private ArrayList<Record> records;
 
     public void add(Record record){
+
         records.add(record);
     }
 
-    @Override
-    public String toString() {
-        return "PhoneBook{" +
-                "records=" + records +
-                '}';
+    public String find(String name){
+
+        return null;
     }
+
+
 }

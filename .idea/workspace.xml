@@ -4,45 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 2_3 v0 was added">
-      <change afterPath="$PROJECT_DIR$/src/home/work4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work4/phonebook/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Record.java" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 4 v0 was added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork11/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work11/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork11/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work11/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork11/FitInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work11/FitInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork11/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work11/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work12/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/Drinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work12/Drinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork13/FibonacciNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work13/FibonacciNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/ClassicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/ClassicMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/MusicGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/MusicGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/MusicStyles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/MusicStyles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/PopMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork14/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work14/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/Androids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/Androids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/IOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/IOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/Iphones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/Iphones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/LinuxOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/LinuxOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork15/Smartphones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work15/Smartphones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork2/HW_2_Mishchenko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work2/HW_2_Mishchenko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork3/ChineseDynasties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work3/ChineseDynasties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork4/Parallelepiped.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work4/Parallelepiped.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork5/CounterStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work5/CounterStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork6/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work6/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork7/ShuttleNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work7/ShuttleNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work8/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork9/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work9/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork9/BurgerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/work9/BurgerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work4/phonebook/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work4/phonebook/Record.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +70,7 @@
       <recent name="home.work2.other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.home.work4.phonebook.Main">
+  <component name="RunManager" selected="Application.home.work4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.work3.Main" />
       <module name="Hillel" />
@@ -145,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.home.work4.phonebook.Main" />
         <item itemvalue="Application.home.work4.Main" />
+        <item itemvalue="Application.home.work4.phonebook.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -182,7 +149,7 @@
       <workItem from="1673294961517" duration="3145000" />
       <workItem from="1673443381378" duration="980000" />
       <workItem from="1673809345280" duration="1159000" />
-      <workItem from="1674657241859" duration="12526000" />
+      <workItem from="1674657241859" duration="15848000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -289,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673444292834</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW 4 v0 was added">
+      <created>1674671111962</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674671111962</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +294,7 @@
     <MESSAGE value="HW 15 v0 was added" />
     <MESSAGE value="HW 2_2 v0 was added" />
     <MESSAGE value="HW 2_3 v0 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 2_3 v0 was added" />
+    <MESSAGE value="HW 4 v0 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 4 v0 was added" />
   </component>
 </project>
