@@ -8,11 +8,18 @@ public class PhoneBook {
 
     public void add(String name, String phone) {
         Record record = new Record(name, phone);
-        records.add(record);
+
+        if (records.contains(record)) {
+            System.out.println("you have this contact in your book");
+        }
+        else {
+            records.add(record);
+            System.out.println("contact was added");
+        }
+
     }
 
     public Record find(String name) {
-        int k = 0;
         for (Record i : records) {
             if (i.getName().equals(name)) {
                 return i;
