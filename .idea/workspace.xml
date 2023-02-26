@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 4 v2 was added">
-      <change afterPath="$PROJECT_DIR$/src/home/work5/FileData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work5/FileNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 5 v1 was added">
+      <change beforePath="$PROJECT_DIR$/src/home/work5/FileNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work5/FileNavigator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <workItem from="1674756511553" duration="4810000" />
       <workItem from="1674896606056" duration="1556000" />
       <workItem from="1676740301700" duration="9615000" />
-      <workItem from="1677430982542" duration="5976000" />
+      <workItem from="1677430982542" duration="6354000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -317,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674910634017</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="HW 5 v1 was added">
+      <created>1677437351438</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677437351438</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +355,7 @@
     <MESSAGE value="HW 4 v0 was added" />
     <MESSAGE value="HW 4 v1 was added" />
     <MESSAGE value="HW 4 v2 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 4 v2 was added" />
+    <MESSAGE value="HW 5 v1 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 5 v1 was added" />
   </component>
 </project>

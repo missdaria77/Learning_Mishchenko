@@ -10,19 +10,21 @@ public class FileNavigator {
 
     public void add(FileData file) {
 
-
-        if (!files.containsKey(file.getPath())) {
+        this.files.computeIfAbsent(file.getPath(), s -> {
             ArrayList<FileData> newList = new ArrayList<>();
             newList.add(file);
-            files.put(file.getPath(), newList);
-        } else {
-            for (FileData f : files.get(file.getPath())) {
+            return newList;
+        });
+
+        this.files.computeIfPresent(file.getPath(), (s, src) -> {
+            for (FileData f : src) {
                 if (f.equals(file)) {
-                    return;
+                    return src;
                 }
             }
-            files.get(file.getPath()).add(file);
-        }
+            src.add(file);
+            return src;
+        });
 
     }
 
