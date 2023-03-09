@@ -1,0 +1,79 @@
+Нужно написани SQL script который сможет создать таблицы с такими параметрами
+название: wallet
+поля : wallet_id, currency, amount, user_id, created (date);
+
+название: user
+поля: user_id, name, surname , date_of_registration (date).
+
+Таблиц должны быть связаны публичным ключом user.user_id
+
+
+create table 'wallet' (
+    'wallet_id' int,
+    'currency' varchar(64),
+    'amount' varchar(64),
+    'user_id' int,
+    'created' date,
+    constraint k_user_id foreign key (user_id)
+    references user(user_id)
+    );
+
+create table 'user' (
+    'user_id' int not null auto_increment,
+    'name' varchar(64),
+    'surname' varchar(64),
+    'date_of_registration' date,
+    constraint k_user_id primary key (user_id)
+    );
+
+
+
+Добавить несколько записей (Insert)(на ваше усмотрение)
+
+insert into 'user' (
+    'name',
+    'surname',
+    'date_of_registration',
+    )
+values (
+        'daryna',
+        'mishchenko',
+        '2023-03-01'
+        ),
+        (
+        'july',
+        'may',
+        '2023-02-01'
+        );
+
+
+insert into 'wallet' (
+    'wallet_id',
+    'currency',
+    'amount',
+    'user_id',
+    'created'
+    )
+values (
+        1,
+        'usd',
+        '123',
+        '2',
+        '2023-03-09'
+    ),
+    (
+        2,
+        'uah',
+        '124',
+        '2',
+        '2023-03-08'
+        );
+
+
+написать запрос который сможет вывести имя пользователя, название валюты и ее количество (Join)
+Нужно прислать один файл с этими скриптами (через гит).
+
+select name, currency, amount
+from wallet
+inner join user
+on user.user_id = wallet.user_id;
