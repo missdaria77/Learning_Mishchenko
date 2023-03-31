@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 5 v2 was added">
-      <change afterPath="$PROJECT_DIR$/HW11_SQL" afterDir="false" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 11 v0 was added">
+      <change afterPath="$PROJECT_DIR$/src/home/work10/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/work10/home8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/work6/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/work6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/work6/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/work6/ProductType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,13 +72,13 @@
       <recent name="home.work2.other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.home.work5.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home.work3.Main" />
+  <component name="RunManager" selected="Application.home.work6.Main">
+    <configuration name="home8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.work10.home8" />
       <module name="Hillel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.work3.*" />
+          <option name="PATTERN" value="home.work10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +117,20 @@
       <module name="Hillel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.work5.*" />
+          <option name="PATTERN" value="home.work10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="home.work6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.work6.Main" />
+      <module name="Hillel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.work6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.home.work6.Main" />
+        <item itemvalue="Application.home8" />
         <item itemvalue="Application.home.work5.Main" />
         <item itemvalue="Application.home.work4.phonebook.Main" />
         <item itemvalue="Application.home.work4.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +186,18 @@
       <workItem from="1674896606056" duration="1556000" />
       <workItem from="1676740301700" duration="9615000" />
       <workItem from="1677430982542" duration="6401000" />
-      <workItem from="1678359481799" duration="5005000" />
+      <workItem from="1678359481799" duration="12515000" />
+      <workItem from="1678480178293" duration="2023000" />
+      <workItem from="1678553230730" duration="7336000" />
+      <workItem from="1678565310889" duration="3442000" />
+      <workItem from="1678568791878" duration="12278000" />
+      <workItem from="1678639557120" duration="8436000" />
+      <workItem from="1679174231523" duration="6239000" />
+      <workItem from="1679253124580" duration="1823000" />
+      <workItem from="1679761729988" duration="7115000" />
+      <workItem from="1680265155467" duration="11984000" />
+      <workItem from="1680279911436" duration="880000" />
+      <workItem from="1680281491223" duration="3749000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -330,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677437431347</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="HW 11 v0 was added">
+      <created>1678371638669</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678371638669</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +403,7 @@
     <MESSAGE value="HW 4 v2 was added" />
     <MESSAGE value="HW 5 v1 was added" />
     <MESSAGE value="HW 5 v2 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 5 v2 was added" />
+    <MESSAGE value="HW 11 v0 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 11 v0 was added" />
   </component>
 </project>
