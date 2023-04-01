@@ -62,10 +62,8 @@ public class Main {
         //(ситуація, коли немає продукту з категорією),викинути виняток з повідомленням “Продукт [категорія: ім'я_категорії] не знайдено”
         Product cheapestProduct = Stream.of(product21, product22, product23, product24, product25, product26)
                 .filter(i -> i.getType().equals(ProductType.BOOK))
-                .min(Comparator.comparingDouble(Product::getPrice)).orElse(null);
-        if (cheapestProduct == null) {
-            throw new RuntimeException("product [type: book] was not found");
-        }
+                .min(Comparator.comparingDouble(Product::getPrice))
+                .orElseThrow(() -> new RuntimeException("product [type: book] was not found"));
         System.out.println(cheapestProduct);
         System.out.println("--- --- --- ---");
 

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 11 v0 was added">
-      <change afterPath="$PROJECT_DIR$/src/home/work10/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work10/home8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work6/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work6/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/work6/ProductType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work6/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work6/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +194,7 @@
       <workItem from="1680265155467" duration="11984000" />
       <workItem from="1680279911436" duration="880000" />
       <workItem from="1680281491223" duration="3749000" />
+      <workItem from="1680354629662" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>

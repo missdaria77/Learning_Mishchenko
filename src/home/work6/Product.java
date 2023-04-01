@@ -34,7 +34,7 @@ public class Product {
         this.price = price;
         this.discountApp = discountApp;
         this.addDate = addDate;
-        Id = id;
+        this.Id = id;
     }
 
     public Product newPrice() {
