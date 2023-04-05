@@ -55,7 +55,7 @@ public class Main {
                         //words10.compute(e, (key, val) -> Objects.isNull(val) ? words10.put(e, 1) : val = val + 1)
                     });
 
-            try (FileOutputStream statistics = new FileOutputStream(bookName + "_statistics.txt")) {
+            try (FileOutputStream statistics = new FileOutputStream("src/home/work7/" + bookName + "_statistics.txt")) {
 
                 words10.entrySet().stream()
                         .filter(i -> i.getKey().length() > 2)
@@ -73,7 +73,7 @@ public class Main {
                 int uniqueNum = set.size();
                 statistics.write(("Number of unique words = " + uniqueNum).getBytes());
 
-                BufferedReader brOut = new BufferedReader(new FileReader(bookName + "_statistics.txt"));
+                BufferedReader brOut = new BufferedReader(new FileReader("src/home/work7/" + bookName + "_statistics.txt"));
                 String lineOut = brOut.readLine();
                 while (lineOut != null) {
                     System.out.println(lineOut);
