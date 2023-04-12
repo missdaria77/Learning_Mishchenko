@@ -3,6 +3,8 @@ package home.work9;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 
 public class Main {
@@ -14,22 +16,32 @@ public class Main {
 
             OutputStream outputStream = accept.getOutputStream();
 
-            PrintWriter printWriter = new PrintWriter(outputStream, true);
-
+            PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(
+                    outputStream, StandardCharsets.UTF_8), true);
+            //Charset.forName("KOI8-U")
+            //PrintWriter printWriter = new PrintWriter(outputStream, true);
 
             InputStream inputStream = accept.getInputStream();
             //Scanner scanner = new Scanner(accept.getInputStream());
 
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
             //BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream));
 
-            printWriter.println("Hey");
+            printWriter.println("hey");
 
             String line = bufferedReader.readLine();
-            printWriter.println("line: " + line);
+            //printWriter.println("line: " + line);
 
             if (line.contains("x") || line.contains("y") || line.contains("z")) {
-                printWriter.println("What is it xyz?");
+
+                printWriter.println("Say palyanitsa!");
+                line = bufferedReader.readLine();
+                while (!line.equals("palyanitsa")) {
+                    printWriter.println("Say palyanitsa!");
+                    line = bufferedReader.readLine();
+                }
+                printWriter.println("good man");
+
             } else {
                 printWriter.println(LocalDateTime.now());
             }

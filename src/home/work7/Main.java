@@ -71,7 +71,7 @@ public class Main {
 
                 Set<String> set = new HashSet<>(Arrays.asList(res));
                 int uniqueNum = set.size();
-                statistics.write(("Number of unique words = " + uniqueNum).getBytes());
+                statistics.write(("Number of unique wordsппрпрквкевнсна = " + uniqueNum).getBytes());
 
                 BufferedReader brOut = new BufferedReader(new FileReader("src/home/work7/" + bookName + "_statistics.txt"));
                 String lineOut = brOut.readLine();
