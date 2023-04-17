@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 7 v0 was added" />
+    <list default="true" id="b09a988f-e9b7-47f9-97b2-6a614c8bd95a" name="Changes" comment="HW 7 v1 was added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work7/harry potter_statistics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work7/harry potter_statistics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work9/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +52,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -64,7 +70,7 @@
       <recent name="home.work2.other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.home.work9.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.work7.Main" />
       <module name="Hillel" />
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="home.work8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home.work8.Main" />
+    <configuration name="home.work9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.work9.Main" />
       <module name="Hillel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.work8.*" />
+          <option name="PATTERN" value="home.work9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,9 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.home.work9.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.home.work6.Main" />
-        <item itemvalue="Application.home.work8.Main" />
         <item itemvalue="Application.home8" />
         <item itemvalue="Application.home.work5.Main" />
       </list>
@@ -195,6 +201,15 @@
       <workItem from="1680380056014" duration="382000" />
       <workItem from="1680450003477" duration="31822000" />
       <workItem from="1680685480014" duration="3131000" />
+      <workItem from="1680688744436" duration="126000" />
+      <workItem from="1680703841044" duration="1256000" />
+      <workItem from="1680705271196" duration="5925000" />
+      <workItem from="1681055820210" duration="3650000" />
+      <workItem from="1681119929595" duration="5445000" />
+      <workItem from="1681201426985" duration="1737000" />
+      <workItem from="1681203546950" duration="7000" />
+      <workItem from="1681205023400" duration="1518000" />
+      <workItem from="1681324054629" duration="2279000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1668093775929</created>
@@ -378,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680688600711</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="HW 7 v1 was added">
+      <created>1680688851266</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1680688851266</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +439,7 @@
     <MESSAGE value="HW 11 v0 was added" />
     <MESSAGE value="HW 6 v1 was added" />
     <MESSAGE value="HW 7 v0 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 7 v0 was added" />
+    <MESSAGE value="HW 7 v1 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 7 v1 was added" />
   </component>
 </project>
